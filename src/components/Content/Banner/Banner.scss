@@ -1,0 +1,74 @@
+$primary-color: #3498db;
+$secondary-color: #ffffff;
+$footer-bg-color: #2c3e50;
+$banner-bg-image: url('../../../utils/Identity\ Final-01.jpg'); // Replace with the actual image path
+
+.banner-main{
+  // background: $banner-bg-image center/cover no-repeat;
+  background-color: #1f212e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // text-align: justify;
+  
+  height: 30rem;
+  flex-direction: column;
+  position: relative;
+  // margin: auto;
+  .inner{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+img{
+  height: 24%;
+  margin: 0;
+ 
+}
+    h1{
+      color:white;
+      font-size: 2.5rem;
+  text-align: justify;
+  // margin: auto;
+
+      @media(max-width:675px){
+        font-size: 3rem;
+      }
+      @media(max-width:576px){
+        margin-left: 40px;
+      }
+    }
+    
+    button {
+      background-color: $primary-color;
+      color: $secondary-color;
+      padding: 14px 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      width: 15rem;
+   
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+    button:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+.MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root {
+  padding-top: 0;
+  line-height: 1.6;
+  font-size: 15px;
+}
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+font-weight: 900; 
+color: #3498db;
+
+}
+.css-1d3f8j8-MuiButtonBase-root-MuiButton-root {
+  background-color: #3498db;
+  color: white;
+}

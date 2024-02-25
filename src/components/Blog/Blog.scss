@@ -1,0 +1,35 @@
+.container{
+    
+    .bannerImg {
+        background: url("../../utils/img/background3.jpg")
+          center/cover no-repeat;
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+        h1 {
+          color: #3498db;
+          font-size: 70px;
+          transition: transform 0.3s ease-in-out;
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    .main{
+       padding: 10%;
+       background-color: beige;
+       .title{
+        font-size: larger;
+        font-weight: 700;
+        padding: 20px;
+       }
+       .detail{
+        line-height: 2;
+        font-size: 17px;
+       }
+    }
+}
