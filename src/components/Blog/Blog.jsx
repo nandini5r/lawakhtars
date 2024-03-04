@@ -270,13 +270,13 @@ const Blog = () => {
         </Accordion>
 
         <Accordion
-          expanded={expanded === "panel5"}
-          onChange={handleChange("panel5")}
+          expanded={expanded === "panel6"}
+          onChange={handleChange("panel6")}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel3-content"
-            id="panel5"
+            id="panel6"
             className="title"
           >
            Navigating False Allegations: Protecting Professional
