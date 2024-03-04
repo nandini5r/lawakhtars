@@ -5,7 +5,6 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./Blog.scss";
 
-
 const Blog = () => {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -18,15 +17,18 @@ const Blog = () => {
         <h1>Articles and Updates</h1>
       </div>
       <div className="main">
-        <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
+        <Accordion
+          expanded={expanded === "panel1"}
+          onChange={handleChange("panel1")}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1-content"
             id="panel1"
             className="title"
           >
-            Title: "Cross-Border Marriages: Navigating Custody Disputes in
-            International Divorce - Jurisdiction and Precedents"
+           Cross-Border Marriages: Navigating Custody Disputes in
+            International Divorce - Jurisdiction and Precedents
           </AccordionSummary>
           <AccordionDetails className="detail">
             In the realm of international marriages, the issue of child custody
@@ -55,14 +57,17 @@ const Blog = () => {
             Kodali, (2019) 7 SCC 311.
           </AccordionDetails>
         </Accordion>
-        <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+        <Accordion
+          expanded={expanded === "panel2"}
+          onChange={handleChange("panel2")}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2-content"
             id="panel2"
             className="title"
           >
-            Title: Navigating Business Succession Disputes in the Middle East: A
+           Navigating Business Succession Disputes in the Middle East: A
             Guide for Indian Expatriates
           </AccordionSummary>
           <AccordionDetails className="detail">
@@ -102,14 +107,17 @@ const Blog = () => {
             rightful place in the shared business agreement.
           </AccordionDetails>
         </Accordion>
-        <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <Accordion
+          expanded={expanded === "panel3"}
+          onChange={handleChange("panel3")}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel3-content"
             id="panel3"
             className="title"
           >
-            Title: Securing Justice for Expatriate Workers: Unraveling
+           Securing Justice for Expatriate Workers: Unraveling
             Compensation Claims in the Middle East
           </AccordionSummary>
           <AccordionDetails className="detail">
@@ -150,15 +158,18 @@ const Blog = () => {
             legal landscape with diligence and compassion.
           </AccordionDetails>
         </Accordion>
-        <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <Accordion
+          expanded={expanded === "panel4"}
+          onChange={handleChange("panel4")}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel3-content"
             id="panel4"
             className="title"
           >
-            Title: "Navigating International Trade Disputes: A Strategic
-            Approach for African Businesses Dealing with Indian Suppliers"
+            Navigating International Trade Disputes: A Strategic
+            Approach for African Businesses Dealing with Indian Suppliers
           </AccordionSummary>
           <AccordionDetails className="detail">
             In the intricate world of international trade, unforeseen challenges
@@ -199,15 +210,18 @@ const Blog = () => {
             transcending geographical boundaries.
           </AccordionDetails>
         </Accordion>
-        <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <Accordion
+          expanded={expanded === "panel5"}
+          onChange={handleChange("panel5")}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel3-content"
             id="panel5"
             className="title"
           >
-            Title: "In the Halls of Justice: A Beacon of Hope for Struggling
-            Students"
+           In the Halls of Justice: A Beacon of Hope for Struggling
+            Students
           </AccordionSummary>
           <AccordionDetails className="detail">
             In the intricate tapestry of academic pursuits, unforeseen
@@ -252,6 +266,54 @@ const Blog = () => {
             student, from school to college, deserves a fair chance to pursue
             their academic dreams, unburdened by the shackles of financial
             adversity.
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          expanded={expanded === "panel5"}
+          onChange={handleChange("panel5")}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel3-content"
+            id="panel5"
+            className="title"
+          >
+           Navigating False Allegations: Protecting Professional
+            Reputations in the Face of Unjust Accusations
+          </AccordionSummary>
+          <AccordionDetails className="detail">
+            In today's fast-paced world, where success is often accompanied by
+            scrutiny, it becomes imperative to address the rising issue of false
+            accusations that can wreak havoc on one's personal and professional
+            life. Our recent case involves the Vice-President of a prestigious
+            USD 3 trillion multinational company, who found himself entangled in
+            a nightmarish situation during an international flight from New York
+            to Delhi. While on the flight, our client, innocently asleep, became
+            the target of a startling accusation from a fellow passenger.
+            Allegedly, he had "urinated" on her, leading to a public outcry
+            onboard and eventually resulting in an FIR being filed against him
+            upon landing in Delhi. The subsequent media trial took a toll on our
+            client, who not only faced incarceration but also suffered the loss
+            of his Vice-President position and to this day he he is rejected
+            from every company that he seeks an opportunity to work in. False
+            allegations can be devastating, with far-reaching consequences that
+            extend beyond legal ramifications. In our latest blog, we shed light
+            on the strategies and legal measures individuals can employ when
+            faced with baseless accusations. While maintaining utmost discretion
+            and confidentiality, we provide insights into preserving one's
+            reputation, mitigating the impact on professional standing, and
+            combating media trials. It's crucial to note that false accusations
+            can affect anyone, regardless of gender. Our objective is to offer
+            guidance to those who find themselves in similar predicaments,
+            emphasizing the importance of legal representation and a strategic
+            approach to protect one's livelihood. As we navigate through the
+            complexities of this case, we invite individuals who have
+            experienced unjust allegations to reach out to us. Our legal team is
+            committed to advocating for the truth and ensuring that justice
+            prevails, standing by those who have fallen victim to false
+            accusations in their quest for maintaining personal and professional
+            integrity.
           </AccordionDetails>
         </Accordion>
       </div>
