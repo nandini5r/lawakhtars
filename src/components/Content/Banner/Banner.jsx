@@ -50,7 +50,7 @@ const Banner = () => {
         <img src={logo} alt='logo' />
         <h1>AKHTARS LEGALITARIAN </h1>
         <button type='submit' onClick={navToContact}>
-          Make an Appointment
+          For Query
         </button>
         <DialogBox
           open={open}

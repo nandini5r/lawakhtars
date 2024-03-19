@@ -50,7 +50,7 @@ const Services = () => {
         <div
           className="practice-card"
           onClick={() =>
-            handleDialogOpen("CORPORATE LAWS", "Content for Corporate Laws")
+            handleDialogOpen("CORPORATE LAWS","Corporate Law is also known and often called as Business law, Enterprise Law or Company law. Corporate law regulates the formation of Corporations and companies and their functions, duties, Law. Corporate law is meant for making the business easier.In corporate law, a person has limited liabilities, it can be understood with this example that if you have invested a certain amount in the corporate or you have certain amount of shares. Your liability is limited to your shares or investment, it has nothing to do with your personal assets unless and until you specifically give personal guarantee.")
           }
         >
           <img src={corporate} alt="Employment Law" />
